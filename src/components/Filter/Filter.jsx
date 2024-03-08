@@ -16,6 +16,7 @@ export const Filter = ({ filter, setFilter }) => {
         placeholder="Search by name"
         value={filter}
         onChange={handleFilterChange}
+        className={css.input} // Apply CSS class to input
       />
     </div>
   );
